@@ -1,0 +1,160 @@
+/* == FONTS == */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700");
+/* line 9, /Users/romainmosser/Documents/THP/projet_rendu/restaurant/app/assets/stylesheets/home.scss */
+body {
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%) no-repeat center;
+}
+
+/* line 15, /Users/romainmosser/Documents/THP/projet_rendu/restaurant/app/assets/stylesheets/home.scss */
+h1,
+h2 {
+  text-align: center;
+}
+
+/* line 20, /Users/romainmosser/Documents/THP/projet_rendu/restaurant/app/assets/stylesheets/home.scss */
+h2 {
+  margin-bottom: 40px;
+}
+
+/* line 24, /Users/romainmosser/Documents/THP/projet_rendu/restaurant/app/assets/stylesheets/home.scss */
+li {
+  list-style-type: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* line 30, /Users/romainmosser/Documents/THP/projet_rendu/restaurant/app/assets/stylesheets/home.scss */
+#onglets {
+  width: 500px;
+  height: 30px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+/* line 38, /Users/romainmosser/Documents/THP/projet_rendu/restaurant/app/assets/stylesheets/home.scss */
+#onglets li {
+  float: left;
+  margin: 3px 15px;
+}
+
+/* line 43, /Users/romainmosser/Documents/THP/projet_rendu/restaurant/app/assets/stylesheets/home.scss */
+.line {
+  height: 3px;
+  width: 155px;
+  background-color: black;
+  position: relative;
+  bottom: 25px;
+  left: 400px;
+  z-index: 3;
+}
+
+/* line 53, /Users/romainmosser/Documents/THP/projet_rendu/restaurant/app/assets/stylesheets/home.scss */
+.line-back {
+  height: 3px;
+  width: 455px;
+  background-color: grey;
+  position: relative;
+  bottom: 28px;
+  left: 400px;
+}
+
+/* line 63, /Users/romainmosser/Documents/THP/projet_rendu/restaurant/app/assets/stylesheets/home.scss */
+.card {
+  clear: both;
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 1px;
+  margin-bottom: 30px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* line 75, /Users/romainmosser/Documents/THP/projet_rendu/restaurant/app/assets/stylesheets/home.scss */
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+/* line 83, /Users/romainmosser/Documents/THP/projet_rendu/restaurant/app/assets/stylesheets/home.scss */
+#menu {
+  display: none;
+}
+
+/* line 87, /Users/romainmosser/Documents/THP/projet_rendu/restaurant/app/assets/stylesheets/home.scss */
+#menu span {
+  text-transform: uppercase;
+  font-size: .8em;
+  color: #DAA520;
+}
+
+/* line 93, /Users/romainmosser/Documents/THP/projet_rendu/restaurant/app/assets/stylesheets/home.scss */
+#onglet {
+  display: none;
+}
+
+/* line 97, /Users/romainmosser/Documents/THP/projet_rendu/restaurant/app/assets/stylesheets/home.scss */
+#onglet img {
+  width: 300px;
+}
+
+/* line 101, /Users/romainmosser/Documents/THP/projet_rendu/restaurant/app/assets/stylesheets/home.scss */
+#reservation {
+  font-size: .7em;
+  background-color: #FF9800;
+  color: #fff;
+  border-radius: 100px;
+  width: 10px;
+  height: 10px;
+}
+
+/* line 110, /Users/romainmosser/Documents/THP/projet_rendu/restaurant/app/assets/stylesheets/home.scss */
+#localisation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  display: none;
+  z-index: 3;
+}
+
+/* line 122, /Users/romainmosser/Documents/THP/projet_rendu/restaurant/app/assets/stylesheets/home.scss */
+#localisation p {
+  color: #fff;
+  float: right;
+  margin-right: 30px;
+  text-transform: uppercase;
+}
+
+/* line 129, /Users/romainmosser/Documents/THP/projet_rendu/restaurant/app/assets/stylesheets/home.scss */
+#localisation h3 {
+  color: #fff;
+  clear: both;
+}
+
+/* line 134, /Users/romainmosser/Documents/THP/projet_rendu/restaurant/app/assets/stylesheets/home.scss */
+#localisation iframe {
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.24), 0 2px 3px rgba(255, 255, 255, 0.48);
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+

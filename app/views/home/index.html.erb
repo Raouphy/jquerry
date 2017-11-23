@@ -1,0 +1,43 @@
+<h1>Bienvenue au resto</h1>
+<h2>Laisse nous te montrer ce qu'on sert à manger</h2>
+
+<ul id="onglets">
+  <li id="presentation-btn">Onglet Présentation</li>
+  <li id="menu-btn">Onglet Menu</li>
+  <li id="onglet-btn">Onglet de Boeuf</li>
+</ul>
+
+<div class="line"></div>
+<div class="line-back"></div>
+
+<div class="card" id="presentation">
+  <h3>Viens manger chez nous, c'est bien</h3>
+  <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo.<br>Etiam porta sem malesuada magna mollis euismod. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper.</p>
+</div>
+
+<div class="card" id="menu">
+  <h3>Menu</h3>
+  <ul>
+    <li>Onglet de boeuf <span>spécialité</span></li>
+    <li>Salade césar</li>
+    <li>Filet de bar</li>
+    <li>Glace (vanille, chocolat, fraise)</li>
+    <li>Salade de fruit</li>
+  </ul>
+</div>
+
+<div class="card" id="onglet">
+  <h3>L'onglet c'est notre spécialité</h3>
+  <p>Maecenas faucibus mollis interdum. Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum. Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+  <%= image_tag('onglet.jpg') %>
+</div>
+
+<p style="text-align: center;" id="adresse">Trouvez notre adresse facilement</p>
+
+<div id="localisation">
+    <p id="fermer">Fermer</p>
+  <h3>Retrouvez nous au 100 rue de Paris</h3>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2622.68506474567!2d2.3003008154201767!3d48.90233887929186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f74a7754fa9%3A0xd830c90cd5381e91!2s100+Rue+de+Paris%2C+92110+Clichy!5e0!3m2!1sfr!2sfr!4v1511455855032" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+<%= javascript_include_tag 'index.js' %>
